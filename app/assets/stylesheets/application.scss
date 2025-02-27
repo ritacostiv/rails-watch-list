@@ -110,7 +110,7 @@ body {
 .btn-primary {
   display: inline-block;
   padding: 0.6rem 1.2rem;
-  background-color: #000001;
+  background-color: #0d0df2;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -127,7 +127,7 @@ body {
   width: fit-content;
   margin: 0 auto;
   padding: 0.8rem 1.6rem;
-  background-color: #0b1ba7;
+  background-color: #081ff0;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -137,7 +137,7 @@ body {
 }
 
 .btn-create:hover {
-  background-color: #2e0ea2;
+  background-color: #3a07f5;
 }
 
 @media (max-width: 768px) {
@@ -216,7 +216,7 @@ body {
 .btn-delete {
   display: inline-block;
   padding: 6px 12px;
-  background-color: #300E13;
+  background-color: #250ef1;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -225,7 +225,7 @@ body {
 }
 
 .btn-delete:hover {
-  background-color: #4c161e;
+  background-color: #230bf9;
 }
 
 .empty-state {
@@ -245,7 +245,7 @@ body {
 .btn-create {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #300E13;
+  background-color: #120eeb;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -254,5 +254,5 @@ body {
 }
 
 .btn-create:hover {
-  background-color: #4c161e;
+  background-color: #3509e5;
 }
