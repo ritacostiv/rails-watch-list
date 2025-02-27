@@ -1,0 +1,17 @@
+<div class="navbar">
+  <div class="navbar-logo">
+    <%= link_to lists_path do %>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDxolJa0h5z0dw0bRlEtIzsEaMDIDOry5Mw&s" alt="Cat in glasses logo" class="logo-image">
+    <% end %>
+  </div>
+
+  <div class="navbar-links">
+    <%= link_to lists_path, class: "navbar-btn" do %>
+      <i class="fas fa-list"></i> My Lists
+    <% end %>
+
+    <%= link_to new_list_path, class: "navbar-btn navbar-btn-primary" do %>
+      <i class="fas fa-plus"></i> Create New List
+    <% end %>
+  </div>
+</div>
